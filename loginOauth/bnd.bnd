@@ -1,0 +1,17 @@
+Bundle-Name: loginOauth
+Bundle-SymbolicName: com.minsait.auth
+Bundle-Version: 1.0.0
+Export-Package: com.minsait.auth.constants,\
+				com.minsait.auth.configuration, \
+				com.minsait.auth.utilities
+				
+Bundle-ClassPath:\
+	.,\
+	lib/httpcore.jar,\
+	lib/httpclient.jar,\
+	lib/json.jar,
+
+-includeresource:\
+  lib/httpcore.jar=httpcore*.jar,\
+  lib/httpclient.jar=httpclient*.jar,\
+  lib/json.jar=json*.jar
